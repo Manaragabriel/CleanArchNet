@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArchNet\\CleanArchNet.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\CleanArch-Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\CleanArch-Application.csproj",
+        "projectName": "CleanArch-Application",
+        "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\CleanArch-Application.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj"
+              },
+              "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj",
+        "projectName": "CleanArch_Domain",
+        "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj",
+        "projectName": "CleanArch-Infrastructure",
+        "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Domain\\CleanArch_Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArchNet\\CleanArchNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArchNet\\CleanArchNet.csproj",
+        "projectName": "CleanArchNet",
+        "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArchNet\\CleanArchNet.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArchNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\CleanArch-Application.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\CleanArch-Application.csproj"
+              },
+              "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\bin\Debug\net6.0\CleanArch_Domain.deps.json
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\bin\Debug\net6.0\CleanArch_Domain.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\bin\Debug\net6.0\CleanArch_Domain.pdb
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.AssemblyInfo.cs
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\refint\CleanArch_Domain.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\CleanArch_Domain.pdb
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArch-Domain\obj\Debug\net6.0\ref\CleanArch_Domain.dll
