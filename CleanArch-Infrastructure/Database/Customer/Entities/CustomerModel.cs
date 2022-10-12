@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch_Infrastructure.Database.Customer.Entities
 {
-    public  class CustomerEntity
+    public  class CustomerModel
     {
         public int Id { get; set; }
 
@@ -20,9 +20,6 @@ namespace CleanArch_Infrastructure.Database.Customer.Entities
         
         public string Email { get; set; }
 
-        [MaxLength(255)]
-
-        public string Password { get; set; }
 
         [MaxLength(14)]
 

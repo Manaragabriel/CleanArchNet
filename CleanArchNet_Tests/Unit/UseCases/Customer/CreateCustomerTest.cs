@@ -28,7 +28,6 @@ namespace CleanArchNet_Tests.Unit.UseCases.Customer
             {
                 Name = "Manara use case",
                 Email = "usecase@test.com",
-                Password = "123456",
                 Cpf = "111.111.111-11",
                 Phone = "(11)11111-1111"
             };

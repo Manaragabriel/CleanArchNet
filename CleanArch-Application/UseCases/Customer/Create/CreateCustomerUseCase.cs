@@ -19,19 +19,12 @@ namespace CleanArch_Application.UseCases.Customer.Create
         }
         public OutputCreateCustomerDTO execute(InputCreateCustomerDTO createCustomerDTO)
         {
-
-            var newCustomer = _customerRepository.CreateCustomer(new CustomerClass()
-            {
-                Name = createCustomerDTO.Name,
-                Email = createCustomerDTO.Email,
-                Cpf = createCustomerDTO.Cpf,
-                Password = createCustomerDTO.Password,
-                PhoneNumber = createCustomerDTO.Phone
-
-            } );
+            var customerEntity = CustomerMappers.InputCreateCustomerToEntity(createCustomerDTO);
+            var newCustomer = _customerRepository.CreateCustomer(customerEntity);
 
             return new OutputCreateCustomerDTO()
             {
+
                 Name = newCustomer.Name,
                 Email = newCustomer.Email,
                 Phone = newCustomer.PhoneNumber,

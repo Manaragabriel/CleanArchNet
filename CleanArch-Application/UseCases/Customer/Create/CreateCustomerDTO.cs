@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CleanArch_Domain.Customer.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace CleanArch_Application.UseCases.Customer.Create
         public string Email { get; set; }
         public string Cpf { get; set; }
         public string Phone { get; set; }
-        public string Password { get; set; }
+
 
 
     }
@@ -22,7 +23,6 @@ namespace CleanArch_Application.UseCases.Customer.Create
         public string Email { get; set; }
         public string Cpf { get; set; }
         public string Phone { get; set; }
-        public string Password { get; set; }
 
 
     }

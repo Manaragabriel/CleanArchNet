@@ -12,6 +12,8 @@ namespace CleanArch_Domain.Customer.Repositories
          CustomerClass FindCustomer(string email);
 
          CustomerClass CreateCustomer(CustomerClass customer);
+
+        CustomerClass UpdateCustomer(CustomerClass customer);
         
     }
 }

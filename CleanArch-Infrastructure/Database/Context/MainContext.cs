@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CleanArch_Infrastructure.Database.Customer.Entities;
+using CleanArch_Infrastructure.Database.User.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CleanArch_Infrastructure.Database.Context
@@ -14,6 +15,8 @@ namespace CleanArch_Infrastructure.Database.Context
         {
             optionsBuilder.UseMySql("server=localhost;user=root;password=;database=cleanArch", new MySqlServerVersion(new Version(8, 0, 29)));
         }
-        public DbSet<CustomerEntity> Customers { get; set; }
+        public DbSet<CustomerModel> Customers { get; set; }
+
+        public DbSet<UserModel> Users { get; set; }
     }
 }

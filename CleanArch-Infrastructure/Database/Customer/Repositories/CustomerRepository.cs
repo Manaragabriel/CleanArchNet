@@ -36,16 +36,15 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
 
         public CustomerClass CreateCustomer(CustomerClass customer)
         {
-            var customerEntity = new CustomerEntity()
+            var customerEntity = new CustomerModel()
             {
                 Name = customer.Name,
                 Email = customer.Email,
                 Cpf = customer.Cpf,
-                Password = customer.Password,
                 PhoneNumber = customer.PhoneNumber
             };
              _context.Customers.Add(customerEntity);
-              _context.SaveChanges();
+             _context.SaveChanges();
 
             return new CustomerClass()
             {
@@ -57,6 +56,29 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
             };
 
 
+        }
+        public  CustomerClass UpdateCustomer(CustomerClass customer)
+        {
+            var customerModel = new CustomerModel()
+            {
+                Id = customer.Id,
+                Name = customer.Name,
+                Email = customer.Email,
+                Cpf = customer.Cpf,
+                PhoneNumber = customer.PhoneNumber
+            };
+             _context.ChangeTracker.Clear(); 
+             _context.Customers.Update(customerModel);
+             _context.SaveChanges();
+
+            return new CustomerClass()
+            {
+                Name = customerModel.Name,
+                Email = customerModel.Email,
+                Cpf = customerModel.Cpf,
+                PhoneNumber = customerModel.PhoneNumber,
+                Id = customerModel.Id
+            };
         }
     }
 }
