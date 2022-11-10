@@ -9,11 +9,11 @@ namespace CleanArch_Domain.Customer.Repositories
 {
     public interface ICustomerRepository
     {
-         CustomerClass FindCustomer(string email);
+         CustomerEntity FindCustomer(string email);
 
-         CustomerClass CreateCustomer(CustomerClass customer);
+         CustomerEntity CreateCustomer(CustomerEntity customer);
 
-        CustomerClass UpdateCustomer(CustomerClass customer);
+        CustomerEntity UpdateCustomer(CustomerEntity customer);
         
     }
 }

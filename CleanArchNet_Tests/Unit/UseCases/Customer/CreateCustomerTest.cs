@@ -17,7 +17,7 @@ namespace CleanArchNet_Tests.Unit.UseCases.Customer
 
         public CreateCustomerTest( )
         {
-            CustomerRepository customerRepository = new CustomerRepository();
+            CustomerRepository customerRepository = new CustomerRepository(new CleanArch_Infrastructure.Database.Context.MainDbContext());
             _createCustomerUseCase = new CreateCustomerUseCase(customerRepository);
         }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch_Domain.Customer.Entities
 {
-    public class CustomerClass
+    public class CustomerEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

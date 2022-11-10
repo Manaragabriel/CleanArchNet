@@ -1,4 +1,5 @@
 
+using CleanArch_Application.UseCases.Customer.Create;
 using CleanArch_Domain.Customer.Repositories;
 using CleanArch_Infrastructure.Database.Context;
 using CleanArch_Infrastructure.Database.Customer.Repositories;
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<MainDbContext>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICreateCustomerUseCase, CreateCustomerUseCase>();
 var app = builder.Build();
 
 

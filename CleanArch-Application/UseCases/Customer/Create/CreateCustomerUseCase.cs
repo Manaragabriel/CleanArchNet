@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch_Application.UseCases.Customer.Create
 {
-    public class CreateCustomerUseCase
+    public class CreateCustomerUseCase: ICreateCustomerUseCase
     {
 
         private ICustomerRepository _customerRepository;

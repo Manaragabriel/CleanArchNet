@@ -12,9 +12,9 @@ namespace CleanArch_Application.UseCases.Customer.Create
 {
     internal class CustomerMappers
     {
-        public static  CustomerClass InputCreateCustomerToEntity(InputCreateCustomerDTO inputCreateCustomerDTO)
+        public static  CustomerEntity InputCreateCustomerToEntity(InputCreateCustomerDTO inputCreateCustomerDTO)
         {
-            return new CustomerClass()
+            return new CustomerEntity()
             {
                 Name = inputCreateCustomerDTO.Name,
                 Email = inputCreateCustomerDTO.Email,

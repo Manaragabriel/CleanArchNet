@@ -15,7 +15,7 @@ namespace CleanArch_Application.UseCases.Customer.Find
         private ICustomerRepository customerRepository;
         public FindCustomerUseCase()
         {
-            this.customerRepository = new CustomerRepository();
+            this.customerRepository = new CustomerRepository(new CleanArch_Infrastructure.Database.Context.MainDbContext());
         }
         public OutputFindCustomerDTO execute(InputFindCustomerDTO filter)
         {

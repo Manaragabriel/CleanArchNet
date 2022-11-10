@@ -9,12 +9,7 @@ namespace CleanArchNet.Controllers
     public class CustomerController
 
     {
-        private MainDbContext _context;
-
-        public CustomerController()
-        {
-            _context = new MainDbContext();
-        }
+       
         [HttpGet]
         public OutputFindCustomerDTO GetCustomers([FromQuery(Name = "email")] string email)
         {

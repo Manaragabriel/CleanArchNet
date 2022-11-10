@@ -15,16 +15,16 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
     {
         private MainDbContext _context;
 
-        public CustomerRepository()
+        public CustomerRepository(MainDbContext context)
         {
-            _context = new MainDbContext();
+            _context = context;
         }
-        public CustomerClass FindCustomer(string email)
+        public CustomerEntity FindCustomer(string email)
         {
             var customerEntity = _context.Customers.Where(customer => customer.Email == email).FirstOrDefault();
+            
 
-
-            return new CustomerClass()
+            return new CustomerEntity()
             {
                 Email = customerEntity.Email,
                 Name = customerEntity.Name,
@@ -34,7 +34,7 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
             };
         }
 
-        public CustomerClass CreateCustomer(CustomerClass customer)
+        public CustomerEntity CreateCustomer(CustomerEntity customer)
         {
             var customerEntity = new CustomerModel()
             {
@@ -46,7 +46,7 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
              _context.Customers.Add(customerEntity);
              _context.SaveChanges();
 
-            return new CustomerClass()
+            return new CustomerEntity()
             {
                 Name = customerEntity.Name,
                 Email = customerEntity.Email,
@@ -57,7 +57,7 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
 
 
         }
-        public  CustomerClass UpdateCustomer(CustomerClass customer)
+        public  CustomerEntity UpdateCustomer(CustomerEntity customer)
         {
             var customerModel = new CustomerModel()
             {
@@ -71,7 +71,7 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
              _context.Customers.Update(customerModel);
              _context.SaveChanges();
 
-            return new CustomerClass()
+            return new CustomerEntity()
             {
                 Name = customerModel.Name,
                 Email = customerModel.Email,
