@@ -34,25 +34,26 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
             };
         }
 
-        public CustomerEntity CreateCustomer(CustomerEntity customer)
+        public  CustomerEntity CreateCustomer(CustomerEntity customer)
         {
-            var customerEntity = new CustomerModel()
+            var customerModel = new CustomerModel()
             {
                 Name = customer.Name,
                 Email = customer.Email,
                 Cpf = customer.Cpf,
                 PhoneNumber = customer.PhoneNumber
             };
-             _context.Customers.Add(customerEntity);
-             _context.SaveChanges();
+           
+            _context.Customers.Add(customerModel);
+            _context.SaveChanges();
 
             return new CustomerEntity()
             {
-                Name = customerEntity.Name,
-                Email = customerEntity.Email,
-                Cpf = customerEntity.Cpf,
-                PhoneNumber = customerEntity.PhoneNumber,
-                Id = customerEntity.Id
+                Name = customerModel.Name,
+                Email = customerModel.Email,
+                Cpf = customerModel.Cpf,
+                PhoneNumber = customerModel.PhoneNumber,
+                Id = customerModel.Id
             };
 
 

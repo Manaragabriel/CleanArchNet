@@ -13,7 +13,7 @@ namespace CleanArch_Infrastructure.Database.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=localhost;user=user;password=user;database=cleanArch", new MySqlServerVersion(new Version(8, 0, 29)));
+            optionsBuilder.UseMySql("server=localhost;user=user;password=user;database=clean_arch_ref_database", new MySqlServerVersion(new Version(8, 0, 29)));
         }
         public virtual DbSet<CustomerModel> Customers { get; set; }
 

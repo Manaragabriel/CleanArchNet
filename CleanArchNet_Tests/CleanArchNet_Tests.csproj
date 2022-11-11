@@ -26,4 +26,8 @@
     <ProjectReference Include="..\CleanArch-Application\CleanArch-Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Integration\" />
+  </ItemGroup>
+
 </Project>

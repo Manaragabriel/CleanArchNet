@@ -1,6 +1,7 @@
 ﻿using CleanArch_Infrastructure.Database.Context;
-using Microsoft.AspNetCore.Mvc;
 using CleanArch_Application.UseCases.Customer.Find;
+using CleanArch_Application.UseCases.Customer.Create;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchNet.Controllers
 {
@@ -9,12 +10,20 @@ namespace CleanArchNet.Controllers
     public class CustomerController
 
     {
-       
-        [HttpGet]
-        public OutputFindCustomerDTO GetCustomers([FromQuery(Name = "email")] string email)
+        private ICreateCustomerUseCase createCustomerUseCase;
+        public CustomerController(ICreateCustomerUseCase createCustomerUseCase)
         {
-            var input = new InputFindCustomerDTO() { Email = email};
-            return new FindCustomerUseCase().execute(input);
+            this.createCustomerUseCase = createCustomerUseCase;
         }
+        [HttpPost]
+        public IActionResult CreateCustomer([FromBody] InputCreateCustomerDTO inputCreateCustomerDTO)
+        {
+            var newCustomer =  createCustomerUseCase.execute(inputCreateCustomerDTO);
+
+            return new CreatedResult("", newCustomer);
+
+        }
+
+
     }
 }
