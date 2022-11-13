@@ -19,6 +19,7 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
         {
             _context = context;
         }
+       
         public CustomerEntity FindCustomer(string email)
         {
             var customerEntity = _context.Customers.Where(customer => customer.Email == email).FirstOrDefault();
@@ -34,7 +35,7 @@ namespace CleanArch_Infrastructure.Database.Customer.Repositories
             };
         }
 
-        public  CustomerEntity CreateCustomer(CustomerEntity customer)
+        public  virtual CustomerEntity CreateCustomer(CustomerEntity customer)
         {
             var customerModel = new CustomerModel()
             {

@@ -18,6 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArchNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArchNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("CleanArchNet.Test")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
