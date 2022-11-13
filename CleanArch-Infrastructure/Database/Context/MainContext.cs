@@ -11,9 +11,17 @@ namespace CleanArch_Infrastructure.Database.Context
 {
     public class MainDbContext: DbContext
     {
+        public MainDbContext(DbContextOptions<MainDbContext> options): base(options)
+        { }
+        public MainDbContext() 
+        { }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=localhost;user=user;password=user;database=clean_arch_ref_database", new MySqlServerVersion(new Version(8, 0, 29)));
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseMySql("server=localhost;user=user;password=user;database=clean_arch_ref_database", new MySqlServerVersion(new Version(8, 0, 29)));
+
+            }
         }
         public virtual DbSet<CustomerModel> Customers { get; set; }
 

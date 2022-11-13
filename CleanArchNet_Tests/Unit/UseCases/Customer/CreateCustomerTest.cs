@@ -1,6 +1,8 @@
 ﻿using CleanArch_Application.UseCases.Customer.Create;
+using CleanArch_Domain.Customer.Entities;
 using CleanArch_Domain.Customer.Repositories;
 using CleanArch_Infrastructure.Database.Customer.Repositories;
+using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,17 +15,15 @@ namespace CleanArchNet_Tests.Unit.UseCases.Customer
 
     public class CreateCustomerTest
     {
-        private CreateCustomerUseCase _createCustomerUseCase;
-
-        public CreateCustomerTest( )
-        {
-            CustomerRepository customerRepository = new CustomerRepository(new CleanArch_Infrastructure.Database.Context.MainDbContext());
-            _createCustomerUseCase = new CreateCustomerUseCase(customerRepository);
-        }
 
         [Fact]
         public void test()
         {
+            var mockObj = new Mock<CustomerEntity>();
+            var mockRepo = new Mock<ICustomerRepository>();
+            mockRepo.Setup(mock => mock.CreateCustomer(It.IsAny<CustomerEntity>())).Returns(mockObj.Object);
+            var _createCustomerUseCase = new CreateCustomerUseCase(mockRepo.Object);
+
             var newCustomer = new InputCreateCustomerDTO()
             {
                 Name = "Manara use case",
