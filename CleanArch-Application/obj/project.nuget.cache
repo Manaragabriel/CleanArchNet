@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZF3ld4B19lcha0tRgbyZvwxrg8LEA1q+N+6VWDczGCioXupxU4lEeBNZ+07xb9v1kId8WZu9yuWYycm0LqSEJg==",
+  "dgSpecHash": "qOv1BkDjTJJ0vDzFjqOgxhMn9X3SL8JQfNDfOpivisCY6fwX8bjga3QljZ/6/Fq0r5Ok8hCGzZ4UeYS0FaKMjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Application\\CleanArch-Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper.sqlbuilder\\2.0.78\\dapper.sqlbuilder.2.0.78.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",

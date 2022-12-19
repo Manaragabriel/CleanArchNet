@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EsdbNcvGsGMqO5px3CS2qIdbZohMrEn06UxHxp0+yLJX5HDkQEX20T8BI7wVjs1sE42mE3uGf+3uBzHV6aAZpw==",
+  "dgSpecHash": "2ztYDXKg1pEaC6wxBRyHH+aRG9w424d/wovVNaZ2RBNtxRBXkb79w7R51iGpQfMfYum72o3RiAJhsyD1+CiMzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArchNet_Tests\\CleanArchNet_Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper.sqlbuilder\\2.0.78\\dapper.sqlbuilder.2.0.78.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",

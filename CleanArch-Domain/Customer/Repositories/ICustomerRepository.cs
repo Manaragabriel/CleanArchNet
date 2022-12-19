@@ -9,6 +9,7 @@ namespace CleanArch_Domain.Customer.Repositories
 {
     public interface ICustomerRepository
     {
+         IEnumerable<CustomerEntity> FindCustomers();
          CustomerEntity FindCustomer(string email);
 
          CustomerEntity CreateCustomer(CustomerEntity customer);

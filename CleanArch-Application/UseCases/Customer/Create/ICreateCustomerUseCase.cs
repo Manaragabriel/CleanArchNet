@@ -1,4 +1,5 @@
 ﻿using CleanArch_Application.UseCases._shared;
+using CleanArch_Domain._shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch_Application.UseCases.Customer.Create
 {
-    public interface ICreateCustomerUseCase: IUseCaseBase<InputCreateCustomerDTO, OutputCreateCustomerDTO>
+    public interface ICreateCustomerUseCase: IUseCaseBase<InputCreateCustomerDTO, DefaultOutput<OutputCreateCustomerDTO>>
     {
     }
 }

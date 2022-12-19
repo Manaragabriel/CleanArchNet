@@ -421,3 +421,6 @@ C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\n
 C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\net6.0\CleanArchNet.dll
 C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\net6.0\CleanArchNet.pdb
 C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\net6.0\Dapper.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\net6.0\Dapper.Contrib.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet_Tests\bin\Debug\net6.0\Dapper.SqlBuilder.dll

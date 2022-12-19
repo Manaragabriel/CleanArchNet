@@ -40,3 +40,6 @@ C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\
 C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\CleanArch-Application.dll
 C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\CleanArch-Application.pdb
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\Dapper.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\Dapper.Contrib.dll
+C:\Users\Gabriel\Documents\fullCycle\CleanArchNet\CleanArchNet\bin\Debug\net6.0\Dapper.SqlBuilder.dll

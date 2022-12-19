@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1e6kZ7Yqfe1DwmHza6dEyKMed8dhsvr0kf+c93tRpsiuUiS1y1oMnxn4//C1UPS6QEKajlqa2sNtvjJfasvIGw==",
+  "dgSpecHash": "wTrWbnnnYOcr6K1fuxycdjZDlHPJG2A8K1Zhf/KRWnJuGr/csnpH2KMHfBY7aJ9A6xFbWHAQCz+oDyEbxDa+Fw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel\\Documents\\fullCycle\\CleanArchNet\\CleanArch-Infrastructure\\CleanArch-Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\Gabriel\\.nuget\\packages\\dapper.sqlbuilder\\2.0.78\\dapper.sqlbuilder.2.0.78.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
