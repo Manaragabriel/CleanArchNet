@@ -7,6 +7,7 @@ using CleanArch_Domain.Customer.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using CleanArch_Domain._shared;
 using CleanArch_Application.UseCases._shared;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CleanArchNet.Controllers
 {
@@ -17,12 +18,14 @@ namespace CleanArchNet.Controllers
     {
         private ICreateCustomerUseCase createCustomerUseCase;
         private ICustomerRepository customerRepository;
+        
 
         public CustomerController(ICreateCustomerUseCase createCustomerUseCase, ICustomerRepository customerRepository)
         {
             this.createCustomerUseCase = createCustomerUseCase;
             this.customerRepository = customerRepository;
         }
+        [Authorize]
         [HttpGet]
         public AcceptedResult FindCustomers()
         {
